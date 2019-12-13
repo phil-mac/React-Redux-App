@@ -1,11 +1,13 @@
 import React from 'react';
 import ApiApp from './components';
 
+import {Container} from '@material-ui/core';
+
 function App() {
   return (
-    <div>
+    <Container maxWidth='sm' style={{marginTop: '100px'}}>
       <ApiApp />
-    </div>
+    </Container>
   );
 }
 
